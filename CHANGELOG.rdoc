@@ -1,0 +1,4 @@
+== 0.2.1
+
+* enhancements
+  * allow :host option to set custom host for #short_url helper
