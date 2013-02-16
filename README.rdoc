@@ -63,6 +63,11 @@ To generate and display a shortened URL in your application use the helper metho
   
 This will generate a shortened URL. store it to the db and return a string representing the shortened URL.
 
+=== Setting a custom host
+
+To set a custom host for the *helper* *generated* URL (not what's stored in the DB!):
+  short_url("dealush.com/some/resource/id", :host => 'custom.host')
+
 === Shortened URLs with owner
 
 You can link shortened URLs to an owner, to scope them. To do so, add the following line to the models which will act as owners:
